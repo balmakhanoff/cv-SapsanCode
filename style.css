@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(18, 18, 18);
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 3px solid wheat;
+    
+}
+
+.block-1 {
+    background-image: url("https://img.freepik.com/free-vector/realistic-autumn-wallpaper-theme_23-2148602589.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 50px;
+    color: beige;
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    text-shadow: rgb(167, 134, 2) 1px 0 10px;
+}
+
+header img {
+    margin: 30px 0 30px 0;
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: 10px 5px 5px rgb(235, 215, 136);
+}
+
+header hr {
+    box-shadow: 10px 5px 5px rgb(235, 215, 136);
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.my-contacts {
+    color: beige;
+    text-align: center;
+    text-shadow: rgb(78, 50, 7) 1px 0 10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.contacts-item {
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: rgb(255, 230, 0);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.contacts-item a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.description-title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: rgb(236, 241, 232);
+
+}
+
+.description {
+    text-align: center;
+}
+
+.description-left ul {
+    list-style-image: url("accept.png");
+    margin: 30px;
+    text-align: left;
+}
+
+.description-right ul {
+    list-style-image: url("achievement.png");
+    margin: 30px;
+    text-align: left;
+}
+
+li {
+    font-size: 18px;
+    color: rgb(63, 55, 22);
+    text-shadow: rgb(248, 247, 247) 1px 0 10px;
+    font-weight: bold;
+}
+
+.block-2 {
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-01/1641219728_2-abrakadabra-fun-p-chernii-fon-na-rabochii-stol-bez-nichego-3.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.questioning {
+    width: 80%;
+    /* padding: px auto; */
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+}
+
+fieldset {
+    padding: 15px;
+}
+
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+}
+
+.buttons input {
+    font-size: 15px;
+    padding: 8px;
+}
+
+footer {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 699px) {
+    .contacts-item {
+        font-size: 15px;
+    }
+
+    .description {
+        display: block;
+        justify-content: center;
+    }
+}
